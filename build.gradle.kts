@@ -26,6 +26,8 @@ dependencies {
 //	implementation("org.liquibase:liquibase-core")
 //	runtimeOnly("org.postgresql:postgresql")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	// https://mvnrepository.com/artifact/org.telegram/telegrambots
+	implementation("org.telegram:telegrambots:6.8.0")
 }
 
 tasks.withType<KotlinCompile> {
