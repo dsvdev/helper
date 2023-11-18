@@ -1,0 +1,1 @@
+Документация: https://wiki.yandex.ru/homepage/projects/bot-assistent/
