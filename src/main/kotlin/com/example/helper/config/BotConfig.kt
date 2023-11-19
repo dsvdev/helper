@@ -10,9 +10,9 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession
 
 @Configuration
 class BotConfig {
-    @Value("bot.credentials.username")
+    @Value("\${bot.credentials.username}")
     private lateinit var botUsername : String
-    @Value("bot.credentials.token")
+    @Value("\${bot.credentials.token}")
     private lateinit var botToken : String
 
 
